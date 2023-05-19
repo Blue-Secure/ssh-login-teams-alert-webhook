@@ -9,11 +9,11 @@ HIGHLY inspired by https://github.com/MyTheValentinus/ssh-login-alert-telegram
 - git (much easy to install)
 
 ### Install
-1) Clone or download to /opt/ folder
+1) Clone or download to /opt/ folder, with root permissionned user
 ```cd /opt/ && git clone https://github.com/Blue-Secure/ssh-login-teams-alert-webhook```
 
 2) Edit configuration variable by editing credentials.config, its just the Webhook URL given by MS Teams:
-```vim credentials.config```
+```cd /opt/ssh-login-teams-alert-webhook && vim credentials.config```
 
 3) Add this script when user connect with the deploy script:
 ```bash deploy.sh```
